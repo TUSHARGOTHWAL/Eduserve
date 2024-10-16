@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  @apply bg-black min-h-screen;
+}
+
+.shadow-box {
+  -webkit-box-shadow: 10px 10px 0px 1px rgba(250, 250, 250, 1);
+  -moz-box-shadow: 10px 10px 0px 1px rgba(250, 250, 250, 1);
+  box-shadow: 10px 10px 0px 1px rgba(250, 250, 250, 1);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+  background: #000000;
+  border-left: 2px solid #2e2f36;
+}
+::-moz-scrollbar {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background: linear-gradient(45deg, #9a9a85 0%, #000000 100%);
+  border-radius: 20px;
+  border: #ffff5d 2px solid;
+}
+
+.mirror {
+  transform: rotateX(180deg);
+  transition: 800ms;
+}
+
+.no-mirror {
+  transform: rotateX(0);
+  transition: 800ms;
+}

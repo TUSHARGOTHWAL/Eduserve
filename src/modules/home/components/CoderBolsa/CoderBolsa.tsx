@@ -20,7 +20,7 @@ export const CoderBolsa: React.FC<CoderBolsaProps> = (
         <div className="col-span-1">
           <div className="rounded-sm shadow-md shadow-black/50 py-[40px] px-4 lg:px-[50px] bg-dark-main text-brand-light">
             <h3 className="text-4xl font-bold mb-5">How do I access it?</h3>
-            <div className="text-dark-low font-medium">
+            {/* <div className="text-dark-low font-medium">
               <p className="mb-11">
               Access to CoderBolsa is automatic and for everyone , you only need to meet 2 requirements when you are in the course:
               </p>
@@ -31,7 +31,12 @@ export const CoderBolsa: React.FC<CoderBolsaProps> = (
               <span className="flex items-center gap-x-1 w-fit hover:underline text-orange-400 mt-5 cursor-pointer">
                 Ver cursos e carreiras <ArrowDown color=" #fb923c" />
               </span>
-            </div>
+            </div> */}
+
+            <video src="/assets/mp4/323304683-d81789c6-18ee-4217-ba2d-c67130a08239.mp4" 
+            autoPlay
+        loop
+        muted ></video>
           </div>
         </div>
       </div>

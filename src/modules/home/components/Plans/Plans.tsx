@@ -50,9 +50,6 @@ export const Plans: React.FC<PlansProps> = (props: PlansProps) => {
         </h3>
         <span className="uppercase text-xl md:text-2xl">Courses</span>
         
-        <span className="uppercase text-xl md:text-2xl mt-16 md:mt-[90px] block">
-          Cursos
-        </span>
         <Tab tabs={coursesTabs} onTabChange={onTabCourseChange} />
         <Carousel data={courses} />
       </div>

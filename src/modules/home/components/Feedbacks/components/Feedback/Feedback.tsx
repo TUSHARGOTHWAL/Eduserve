@@ -26,7 +26,7 @@ export const Feedback: React.FC<FeedbackProps> = ({ data }: FeedbackProps) => {
             </div>
           </div>
           <span className="block mt-2 lg:mt-0 lg:ml-auto cursor-pointer hover:underline w-fit text-orange-400 border-2 border-orange-400 rounded-sm p-2">
-            Ver LinkedIn
+            See LinkedIn
           </span>
         </div>
       </div>

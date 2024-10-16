@@ -43,7 +43,7 @@ export const Showcase: React.FC<ShowcaseProps> = (props: ShowcaseProps) => {
             className="absolute w-[84px] h-[84px] lf:-right-14 right-2 -bottom-12 lg:-bottom-4"
           />
           <h3 className="text-4xl lg:text-5xl tracking-[-1.8px] font-bold">
-            Tutores
+            Tutors
           </h3>
           <span className="block mt-4">
           In each course you will have a mentor to answer questions and receive feedback on your projects whenever you need it.
